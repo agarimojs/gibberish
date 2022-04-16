@@ -4,7 +4,7 @@ Detect if a sentence is gibberish
 ```javascript
 
 
-const { isGibberish } = require('../src');
+const { isGibberish } = require('@agarimo/gibberish');
 
 isGibberish('This sentence is totally valid.'); // false
 isGibberish('This is not gibberish'); // false
